@@ -39,5 +39,10 @@
             "name": "Aleksandr Soloshenko",
             "email": "capcom@soft-c.ru"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
