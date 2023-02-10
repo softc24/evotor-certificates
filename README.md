@@ -93,6 +93,15 @@ $ composer require softc/evotor-certificates
 
 require 'vendor/autoload.php';
 
+use SoftC\Evotor\Certificates\Api\Domain\CertificateActivate;
+use SoftC\Evotor\Certificates\Api\Domain\CertificateCreate;
+use SoftC\Evotor\Certificates\Api\Domain\CertificatePay;
+use SoftC\Evotor\Certificates\Api\Entities\CertificateType;
+use SoftC\Evotor\Certificates\Api\Enums\EntityStatus;
+use SoftC\Evotor\Certificates\Api\Requests\CertificatesActivateRequest;
+use SoftC\Evotor\Certificates\Api\Requests\CertificatesCreateRequest;
+use SoftC\Evotor\Certificates\Api\Requests\CertificatesPayRequest;
+
 $token = 'api-token';
 $client = new Client($token);
 
